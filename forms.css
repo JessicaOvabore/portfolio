@@ -1,0 +1,94 @@
+		html {
+		box-sizing: border-box;
+		}
+		*, *:before, *:after {
+		box-sizing: inherit;
+		} 
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-image: url(../img/galaxy.jpg);
+		}
+		.wrapper {
+			width: 50%;
+			margin: 0 auto;
+			padding: 1em;
+			display: flex;
+			flex-flow: row nowrap;
+			background-color:violet;
+			margin-top: 10px;;
+		}
+		section {
+			flex-basis: 57%;
+			margin-right: 10%;
+		}
+		aside {
+			flex-basis: 33%;
+		}
+		p, [for="abttype"] {
+			margin-top: 2rem;
+			margin-bottom: 0;
+		}
+		fieldset{
+			border:1px groove green;
+			border-radius: 10px;
+			margin-bottom: 2rem;
+		}
+		legend{
+			margin-top: top 1.5em;
+			margin-bottom: 1rem;
+			font-weight: bold;
+			font-size: 1.3rem;
+			display: block;
+
+		}
+		label{
+		display:block;
+		padding:0.3rem;
+		}
+		textarea{
+		height:10rem;
+		padding:1rem;	
+		}
+		select{
+			font-size: 1rem;
+		}
+
+		button,[type="radio"]{
+			font-size: 1rem;
+			margin:0.3rem 0;
+			background-color: lawngreen;
+			color:olivedrab;
+			border: none;
+			padding:0.3rem 1rem;
+			border-radius: 10px;
+		}
+		button:hover{
+			background-color: cornflowerblue;
+			color:tomato;
+		}
+		input:not([type="radio"]):not([type="checkbox"]),textarea,select{
+			display: block;
+			margin-bottom: 2rem;
+			width: 20rem;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 1rem;
+			padding:0 1rem;
+			border:none;
+
+		}
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
